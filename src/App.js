@@ -6,14 +6,52 @@ import Cart from "./components/Cart/Cart";
 
 // Simulating a set of meal data
 const MEALS_DATA = [
-    {
-        id: '1',
-        title: 'Hamburger',
-        desc: '100% pure beef paired with crisp pickles, onions, and delicious tomato sauce for a classic taste you can\'t resist!',
-        price: 12,
-        img: '/img/meals/1.png'
+   {
+    id: '1',
+    title: 'Hamburger',
+    desc: 'Made with 100% pure beef, paired with crisp pickles, onions, and delicious tomato sauce, the classic taste is irresistible!',
+    price: 12,
+    img: '/img/meals/1.png'
     },
-    // ... (similar translations for other meal objects)
+    {
+    id: '2',
+    title: 'Double Cheeseburger',
+    desc: 'Made with 100% pure beef and double layers of soft and creamy cheese, topped with soft bread and delicious sauce, its irresistibly tempting!',
+
+    price: 20,
+    img: '/img/meals/2.png'
+    },
+    {
+    id: '3',
+    title: 'Big Mac',
+    desc: 'Two pieces of 100% pure beef, paired with lettuce, onions, and other fresh ingredients, rich in taste and extremely delicious!',
+    price: 24,
+    img: '/img/meals/3.png'
+    }, {
+    id: '4',
+    title: 'McSpicy Chicken Burger',
+    desc: 'Golden crispy and spicy outer skin, tender and smooth chicken thigh meat, multiple flavors, once impressing your picky taste buds!',
+    price: 21,
+    img: '/img/meals/4.png'
+    }, {
+    id: '5',
+    title: 'Grilled Chicken Burger',
+    desc: 'Original boneless chicken fillet, tender and juicy, paired with fresh green lettuce and rich grilled chicken sauce, rich in taste!',
+    price: 22,
+    img: '/image/meals/1.png'
+    }, {
+    id: '6',
+    title: 'McChicken',
+    desc: 'Crisp and refreshing lettuce, golden crispy chicken, a nutritious combination, a healthy choice with great taste!',
+    price: 14,
+    img: '/img/meals/1.png'
+    }, {
+    id: '7',
+    title: 'Cheeseburger',
+    desc: 'Made with 100% pure beef and creamy cheese, combined with delicious tomato sauce, rich in taste, a bite bursts with flavor!',
+    price: 12,
+    img: '/img/meals/1.png'
+    }
 ];
 
 const App = () => {
